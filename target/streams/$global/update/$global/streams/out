@@ -1,0 +1,680 @@
+[info] Updating {file:/Users/art2rik1/Projects/GrowlCrawlCow/}growlcrawlcow...
+[debug] :: resolving dependencies :: default#growlcrawlcow_2.10;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10cb79a7
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5
+[debug] 	found org.scala-lang#scala-library;2.10.5 in sbt-chain
+[debug] 	[2.10.5] org.scala-lang#scala-library;2.10.5
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->default(compile)]
+[info] Resolving org.json4s#json4s-native_2.10;3.3.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-native_2.10;3.3.0 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-native_2.10;3.3.0
+[debug] 	found org.json4s#json4s-native_2.10;3.3.0 in sbt-chain
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6
+[debug] 	found org.scala-lang#scala-library;2.10.6 in sbt-chain
+[debug] 	[2.10.6] org.scala-lang#scala-library;2.10.6
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->runtime]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->runtime]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->master(compile)]
+[info] Resolving org.json4s#json4s-core_2.10;3.3.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-core_2.10;3.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.10;3.3.0
+[debug] 	found org.json4s#json4s-core_2.10;3.3.0 in sbt-chain
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->master(compile)]
+[info] Resolving org.json4s#json4s-ast_2.10;3.3.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-ast_2.10;3.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.10;3.3.0
+[debug] 	found org.json4s#json4s-ast_2.10;3.3.0 in sbt-chain
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->master(compile)]
+[info] Resolving org.json4s#json4s-scalap_2.10;3.3.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-scalap_2.10;3.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-scalap_2.10;3.3.0
+[debug] 	found org.json4s#json4s-scalap_2.10;3.3.0 in sbt-chain
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master(compile)]
+[info] Resolving com.thoughtworks.paranamer#paranamer;2.8 ...
+[debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.8
+[debug] 	found com.thoughtworks.paranamer#paranamer;2.8 in sbt-chain
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->default(compile)]
+[info] Resolving org.jsoup#jsoup;1.8.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.jsoup#jsoup;1.8.3 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.jsoup#jsoup;1.8.3
+[debug] 	found org.jsoup#jsoup;1.8.3 in sbt-chain
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)]
+[info] Resolving net.databinder.dispatch#dispatch-core_2.10;0.11.2 ...
+[debug] sbt-chain: Checking cache for: dependency: net.databinder.dispatch#dispatch-core_2.10;0.11.2 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: net.databinder.dispatch#dispatch-core_2.10;0.11.2
+[debug] 	found net.databinder.dispatch#dispatch-core_2.10;0.11.2 in sbt-chain
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(compile)]
+[info] Resolving com.ning#async-http-client;1.8.10 ...
+[debug] sbt-chain: Checking cache for: dependency: com.ning#async-http-client;1.8.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.ning#async-http-client;1.8.10
+[debug] 	found com.ning#async-http-client;1.8.10 in sbt-chain
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(compile)]
+[info] Resolving io.netty#netty;3.9.2.Final ...
+[debug] sbt-chain: Checking cache for: dependency: io.netty#netty;3.9.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: io.netty#netty;3.9.2.Final
+[debug] 	found io.netty#netty;3.9.2.Final in sbt-chain
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)]
+[info] Resolving org.slf4j#slf4j-api;1.7.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5
+[debug] 	found org.slf4j#slf4j-api;1.7.5 in sbt-chain
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.mongodb.scala#mongo-scala-driver_2.10;1.0.0 [compile->default(compile)]
+[info] Resolving org.mongodb.scala#mongo-scala-driver_2.10;1.0.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.mongodb.scala#mongo-scala-driver_2.10;1.0.0 {compile=[default(compile)]}
+[info] Resolving org.mongodb.scala#mongo-scala-driver_2.10;1.0.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb.scala#mongo-scala-driver_2.10;1.0.0 {compile=[default(compile)]}
+[debug] 		tried /Users/art2rik1/.ivy2/local/org.mongodb.scala/mongo-scala-driver_2.10/1.0.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.mongodb.scala#mongo-scala-driver_2.10;1.0.0
+[debug] 		tried https://jcenter.bintray.com/org/mongodb/scala/mongo-scala-driver_2.10/1.0.0/mongo-scala-driver_2.10-1.0.0.pom
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/mongodb/scala/mongo-scala-driver_2.10/1.0.0/mongo-scala-driver_2.10-1.0.0.pom
+[debug] 	jcenter: no ivy file found for org.mongodb.scala#mongo-scala-driver_2.10;1.0.0
+[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.10/1.0.0/mongo-scala-driver_2.10-1.0.0.pom
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.10/1.0.0/mongo-scala-driver_2.10-1.0.0.pom
+[debug] 	public: no ivy file found for org.mongodb.scala#mongo-scala-driver_2.10;1.0.0
+[warn] 	module not found: org.mongodb.scala#mongo-scala-driver_2.10;1.0.0
+[warn] ==== local: tried
+[warn]   /Users/art2rik1/.ivy2/local/org.mongodb.scala/mongo-scala-driver_2.10/1.0.0/ivys/ivy.xml
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/mongodb/scala/mongo-scala-driver_2.10/1.0.0/mongo-scala-driver_2.10-1.0.0.pom
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.10/1.0.0/mongo-scala-driver_2.10-1.0.0.pom
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(compile)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.mongodb.scala#mongo-scala-driver_2.10;1.0.0 [compile->default(compile)]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(compile)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.mongodb.scala#mongo-scala-driver_2.10;1.0.0 [compile->default(compile)]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(compile)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.mongodb.scala#mongo-scala-driver_2.10;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(compile)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.mongodb.scala#mongo-scala-driver_2.10;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.10;3.3.0->org.json4s#json4s-core_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-ast_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->org.json4s#json4s-scalap_2.10;3.3.0 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-scalap_2.10;3.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.3.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.3.0 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(compile)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(compile)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)]
+[debug] == resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)]
+[debug] == resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.mongodb.scala#mongo-scala-driver_2.10;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#growlcrawlcow_2.10;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default]
+[info] Resolving org.scala-lang#scala-compiler;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.5 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.5
+[debug] 	found org.scala-lang#scala-compiler;2.10.5 in sbt-chain
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->default]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->master(*)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.5
+[debug] 	found org.scala-lang#scala-reflect;2.10.5 in sbt-chain
+[debug] 	[2.10.5] org.scala-lang#scala-reflect;2.10.5
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [runtime->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#jline;2.10.5 [optional->master(*)]
+[info] Resolving org.scala-lang#jline;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.5 {optional=[compile(*), master(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.5
+[debug] 	found org.scala-lang#jline;2.10.5 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#jline;2.10.5 [optional->compile(*)]
+[debug] == resolving dependencies org.scala-lang#jline;2.10.5->org.fusesource.jansi#jansi;1.4 [compile->master(*)]
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#jline;2.10.5->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->default]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#growlcrawlcow_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-native_2.10;3.3.0!json4s-native_2.10.jar
+[debug] 	[NOT REQUIRED] org.jsoup#jsoup;1.8.3!jsoup.jar
+[debug] 	[NOT REQUIRED] net.databinder.dispatch#dispatch-core_2.10;0.11.2!dispatch-core_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.3.0!json4s-core_2.10.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.3.0!json4s-ast_2.10.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.10;3.3.0!json4s-scalap_2.10.jar
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle)
+[debug] 	[NOT REQUIRED] com.ning#async-http-client;1.8.10!async-http-client.jar
+[debug] 	[NOT REQUIRED] io.netty#netty;3.9.2.Final!netty.jar(bundle)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar
+[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
+[debug] :: resolution report :: resolve 4593ms :: artifacts dl 31ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::          UNRESOLVED DEPENDENCIES         ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.mongodb.scala#mongo-scala-driver_2.10;1.0.0: not found
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT compile produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-compile.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT runtime produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-runtime.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT test produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-test.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT provided produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-provided.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT optional produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-optional.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT compile-internal produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-compile-internal.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-runtime-internal.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT test-internal produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-test-internal.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT plugin produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-plugin.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT sources produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-sources.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT docs produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-docs.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT pom produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-pom.xml
+[debug] 	report for default#growlcrawlcow_2.10;0.1-SNAPSHOT scala-tool produced in /Users/art2rik1/Projects/GrowlCrawlCow/target/resolution-cache/reports/default-growlcrawlcow_2.10-scala-tool.xml
+[debug] 	resolve done (4593ms resolve - 31ms download)
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[warn] 		org.mongodb.scala:mongo-scala-driver_2.10:1.0.0 (/Users/art2rik1/Projects/GrowlCrawlCow/build.sbt#L1-7)
+[warn] 		  +- default:growlcrawlcow_2.10:0.1-SNAPSHOT
+sbt.ResolveException: unresolved dependency: org.mongodb.scala#mongo-scala-driver_2.10;1.0.0: not found
+	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:294)
+	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:191)
+	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:168)
+	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)
+	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)
+	at sbt.IvySbt$$anonfun$withIvy$1.apply(Ivy.scala:132)
+	at sbt.IvySbt.sbt$IvySbt$$action$1(Ivy.scala:57)
+	at sbt.IvySbt$$anon$4.call(Ivy.scala:65)
+	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:93)
+	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:78)
+	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:97)
+	at xsbt.boot.Using$.withResource(Using.scala:10)
+	at xsbt.boot.Using$.apply(Using.scala:9)
+	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:58)
+	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:48)
+	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+	at xsbt.boot.Locks$.apply(Locks.scala:28)
+	at sbt.IvySbt.withDefaultLogger(Ivy.scala:65)
+	at sbt.IvySbt.withIvy(Ivy.scala:127)
+	at sbt.IvySbt.withIvy(Ivy.scala:124)
+	at sbt.IvySbt$Module.withModule(Ivy.scala:155)
+	at sbt.IvyActions$.updateEither(IvyActions.scala:168)
+	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1392)
+	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1388)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$90.apply(Defaults.scala:1422)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$90.apply(Defaults.scala:1420)
+	at sbt.Tracked$$anonfun$lastOutput$1.apply(Tracked.scala:37)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1425)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1419)
+	at sbt.Tracked$$anonfun$inputChanged$1.apply(Tracked.scala:60)
+	at sbt.Classpaths$.cachedUpdate(Defaults.scala:1442)
+	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1371)
+	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1325)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[error] (*:update) sbt.ResolveException: unresolved dependency: org.mongodb.scala#mongo-scala-driver_2.10;1.0.0: not found
