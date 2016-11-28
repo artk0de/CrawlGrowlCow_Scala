@@ -3,4 +3,5 @@ target/
 lib/
 GrowlCrawlCow.iml
 project/
-
+src/main
+src/test
