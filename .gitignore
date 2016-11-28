@@ -1,0 +1,6 @@
+target/*
+.idea/*
+lib/*
+GrowlCrawlCow.iml
+project/*
+

@@ -1,25 +1,26 @@
-package crawlgrowlcow
+package scala.crawlgrowlcow.crawling
 
-import scala.collection.mutable.Queue
-import scala.collection.mutable.Stack
+import scala.collection.mutable.{Queue, Stack}
+import scalaj.http._
 
-/**
-  * Created by art2rik1 on 21.11.16.
-  */
+
 class CrawlDaemon(worker: CrawlWork) {
   private val crawlTasks = Queue[String]()
   private val crawlResults = Stack[String]()
   private var isEnabled = false
+  private var attempts = 20
+
 
 
   private def process() {
-    // TODO: add multiprocessing
     while(isEnabled) {
       if (crawlTasks.nonEmpty) {
         val url = crawlTasks.dequeue()
-        val result = fetch(url)
-        val fetched_urls = result._1
-        val fetched_result = result._2
+//        try {
+
+          val response = getResponse(url)
+          val urls = fetchUrls(response.body)
+//        }
 //        val processed_data =  worker.work(fetched_result)
 //        crawlResults.push(processed_data)
       } else {
@@ -28,13 +29,17 @@ class CrawlDaemon(worker: CrawlWork) {
     }
   }
 
-  private def fetch(url: String): (List[String], List[String]) = {
-    //connect to a server
-    //get data
-    val fetched_urls: List[String] = List()
-    val json_data: List[String] = List()
-    // process raw data to JSON format
-    return (fetched_urls, json_data)
+  private def fetchUrls(body: String): List[String]= {
+    val urls: List[String] = List()
+    for (domain <- worker.domains) {
+      val pattern = "(http(s?)://)?*$domain/*(/s|<|\")".r
+
+    }
+    return urls
+  }
+
+  private def getResponse(url: String): HttpResponse[String] = {
+    return Http(url).asString
   }
 
   def addTask(url: String) {
