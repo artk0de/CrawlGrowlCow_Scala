@@ -1,6 +1,6 @@
-target/*
-.idea/*
-lib/*
+target/
+.idea/
+lib/
 GrowlCrawlCow.iml
-project/*
+project/
 
