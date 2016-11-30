@@ -3,7 +3,6 @@ target/
 lib/
 GrowlCrawlCow.iml
 project/
-src/main
 src/test
 */.DS_Store
 .DS_Store
