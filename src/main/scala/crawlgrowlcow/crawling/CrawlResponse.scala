@@ -4,6 +4,7 @@ import org.json4s.JsonAST._
 import org.json4s._
 import org.json4s.native.JsonMethods._
 import org.jsoup.Jsoup
+import org.json4s.JsonDSL._
 
 import scala.xml.XML
 
@@ -24,10 +25,11 @@ import scala.xml.XML
 
     def toXml = XML.loadString(body)
 
-//    def toJsonString = compact(render(toJsonFull))
-
-
-
+    def toJsonString = compact(render(("request" -> request.toJson) ~
+      ("status" -> status) ~
+      ("response" -> body) ~
+      ("created" -> created) ~
+      ("timeTaken" -> timeTaken)))
   }
 
 

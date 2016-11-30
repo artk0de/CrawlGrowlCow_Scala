@@ -42,8 +42,8 @@ case class CrawlRequest(url: String,
 
   def toJson =  ("url", url) ~
     ("method", method) ~
-    ("headers", headers) ~
-    ("requestBody", requestBody) ~
+    ("headers", headers.get) ~
+    ("requestBody", requestBody.get) ~
     ("cache", cache)
 }
 

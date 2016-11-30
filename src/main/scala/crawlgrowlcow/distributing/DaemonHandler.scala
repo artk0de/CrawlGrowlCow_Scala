@@ -12,10 +12,7 @@ case class DaemonHandler(n: Int,
   var daemons: HashMap[Int, CrawlDaemon] = HashMap()
 
   def initDaemons(worker: CrawlWork) = {
-    val ids = CrawlGrowlCowApi.getDaemonIds(n)
-    for (id <- ids) {
-      daemons += (id -> CrawlDaemon(worker, id))
-    }
+
   }
 
   def startWork() = {

@@ -31,10 +31,10 @@ case class CrawlDaemon(worker: CrawlWork, id: Int) extends Comparable[CrawlDaemo
 
           val crawlResp = CrawlResponse(req, status, response.headers, response.body) // create response object
           val result: CrawlResult = worker.work(crawlResp)
-          if (result.results == None) {
+          if (result.results == null) {
             crawlResults.push((result, crawlResp)) // do usefull job
           } else {
-            throw new IllegalArgumentException("Results can't be empty!")
+            crawlResults.push((null, crawlResp))
           }
 
         } else { // if connection wasn't successfully
