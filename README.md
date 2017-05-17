@@ -28,13 +28,18 @@ The system consists of:
 * Master server (or central node)
 * Slave node
 * Database, assigned to master
+* Worker daemon
 
-**Master** acts as central cerver and interacting with database. It is receives results from slave nodes and recording it to local database.
+**Master** acts as central cerver and interacting with database. It is receives results from slave nodes and recording it to local database. Could work as node or just a central point to collect results.
 
-**Node** 
+**Nodes** are processes main parsing work and sends results to master server. At least one worker should be runned on slave node.
+
+**Workers** are special parse-processing threads which could be runned on master or slave nodes.
+
 ![alt text](https://github.com/art2rik/CrawlGrowlCow/blob/master/img/structure.png "System structure")
 
 ### Workflow
+
 ![alt text](https://github.com/art2rik/CrawlGrowlCow/blob/master/img/workflow.png "Workflow")
 
 ## Create a worker
