@@ -2,6 +2,7 @@
 CrawlGrowlCow is the framework for distributing crawling or parsing based on Scala. Its allow user to crawl on different machines and uses MongoDB to collect data.
 
 
+# User's guide
 ## Setup & launch
 
 1. Install Scala
@@ -38,6 +39,8 @@ object DemoWork extends CrawlWork { // Worker demo class
 ## Run master
 
 ## Run a slave
+
+## How this works
 
 
 
