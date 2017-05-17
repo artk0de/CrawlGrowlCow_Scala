@@ -42,5 +42,8 @@ object DemoWork extends CrawlWork { // Worker demo class
 
 ## How this works
 
+![alt text](https://github.com/art2rik/CrawlGrowlCow/blob/master/img/structure.png "System structure")
+![alt text](https://github.com/art2rik/CrawlGrowlCow/blob/master/img/workflow.png "Workflow")
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
