@@ -99,7 +99,14 @@ class DemoWork extends CrawlWork{
 ```
 
 ## CrawlResponse class
-*work* method uses **CrawlResponse** class as arguement, so there are some usefull information about this class.
+*work* method uses **CrawlResponse** object as arguement, so there are some usefull information about this class.
+#### Method list
+| Method name | Output | Reference|
+|-------------|:------:|----------|
+|toDom| JSoup object|[Manual](https://jsoup.org)|
+|toJson| JValue object|[Manual](https://github.com/json4s/json4s)|
+|toXML| XML object|[Manual](http://www.scala-lang.org/api/2.11.1/scala-xml/#scala.xml.XML$)|
+|toJsonString| JSON-formatted String | - |
 
 ## Run master
 
