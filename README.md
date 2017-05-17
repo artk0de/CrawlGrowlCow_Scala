@@ -77,13 +77,30 @@ Also, there are unecessary methods could be implemented to make parse more flexi
 #### setParams
 Executes every time before *work*. Could be used to setup httpRequest. For further information please visit [this page](https://github.com/scalaj/scalaj-http)
 ```scala
+class DemoWork extends CrawlWork{
  override def setParams(client: HttpRequest) { // Unecessary method
      // ...
     // add some parameters to httpClient like authorization
     // 
     // ...
   }
+}  
 ```
+#### init
+Executes one time when worker are starting. 
+```scala
+class DemoWork extends CrawlWork{
+ override def init() {
+     this.setDomains(List("wikipedia.org", "wikipedia.ru")) // this method sets whitelist for domains what can be parsed
+     this.setPathExceptions(List("/temp","/img")) // set "stop-phrases" in url which shouldn't be parsed
+     // other work
+  }
+}
+```
+
+## CrawlResponse class
+*work* method uses **CrawlResponse** class as arguement, so there are some usefull information about this class.
+
 ## Run master
 
 ## Run a slave
