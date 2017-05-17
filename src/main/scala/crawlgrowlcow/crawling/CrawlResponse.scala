@@ -11,7 +11,7 @@ import scala.xml.XML
   /**
     * Created by art2rik1 on 21.11.16.
     */
-  case class CrawlResponse(
+  class CrawlResponse(
                             request: CrawlRequest,
                             status: Int,
                             headers: Map[String, IndexedSeq[String]],

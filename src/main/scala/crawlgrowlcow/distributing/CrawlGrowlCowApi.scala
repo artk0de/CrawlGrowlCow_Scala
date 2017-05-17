@@ -1,5 +1,6 @@
 package crawlgrowlcow.distributing
 
+import org.json4s.DefaultFormats
 import org.json4s.JsonAST.{JObject, JArray}
 
 import scala.crawlgrowlcow.crawling.CrawlResult
@@ -10,35 +11,34 @@ import org.json4s.native.Serialization.write
 /**
   * Created by art2rik1 on 30.11.16.
   */
-case class CrawlGrowlCowApi(ip: String, port: String) {
+object CrawlGrowlCowApi {
+  implicit val formats = DefaultFormats
+  var ip: String = null
+  var port: Int = 80
 
-  def getDaemonIds(n: Int): List[Int] = {
-    // get IDs
-    return List(1,2,3,4)
+  def setServer(ip: String, port: Int) = {
+    this.ip = ip
+    this.port = port
   }
 
   def getTasks(n: Int): List[String] = {
-    val url = "http://$ip:$port/getTasks"
-    val resp: HttpResponse[String] = Http(url).method("GET")
-                                              .param("n", n.toString)
-                                              .asString
-    val jsonTasks = parse(resp.body)
+      val url = "http://" + ip + ":" + port.toString + "/getTasks"
+      println(url)
+      val resp: HttpResponse[String] = Http(url).method("POST")
+                                       .param("n", n.toString)
+                                       .asString
+      val jsonTasks = parse(resp.body)
 
-    return jsonTasks.extract[List[String]]
+      return (jsonTasks \ "result").extract[List[String]]
   }
 
-  def pullResult(url: String, result: CrawlResult, urls: List[String])  = {
-    val url = "http://$ip:$port/pullResult"
+  def pushResult(url_res: String, result: CrawlResult, urls: List[String])  = {
+    val url = "http://" + ip + ":" + port.toString + "/pushResult"
 
-    val urls_json = write(urls)
-
-    Http(url).method("POST").param("url", url)
-      .param("result", result.toJsonString)
-      .param("urls", compact(render(urls_json))).asBytes
+    val urls_json = ("urls" -> urls)
+    println(compact(render(urls_json)))
+    Http(url).method("POST").params(Map(("url" -> url_res),
+    ("result"-> result.toJsonString),
+    ("urls" -> compact(render(urls_json))))).asString
   }
-
-  def pul
-
-
-
 }

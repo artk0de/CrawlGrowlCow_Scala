@@ -8,27 +8,11 @@ import scalaj.http._
 
 import java.security.MessageDigest
 
-case class CrawlRequest(url: String,
-                        method: String = "GET",
-                        headers: Option[Map[String, String]] = None,
-                        requestBody: Option[Map[String, String]] = None,
+class CrawlRequest(url_p: String,
                         cache: Boolean = true) {
 
-  val client: HttpRequest = Http(url).method(method)
-  buildRequest()
-
-  /**
-    * Build the request
-    */
-  private def buildRequest() = {
-    if (headers.isDefined) {
-      client.headers(headers.get)
-    }
-
-    if (requestBody.isDefined) {
-      client.params(requestBody.get)
-    }
-  }
+  val url: String = url_p
+  val client: HttpRequest = Http(url)
 
   /**
     * Execute a request
@@ -41,9 +25,9 @@ case class CrawlRequest(url: String,
   def toJsonString = compact(render(toJson))
 
   def toJson =  ("url", url) ~
-    ("method", method) ~
-    ("headers", headers.get) ~
-    ("requestBody", requestBody.get) ~
+    ("method", client.method) ~
+    ("headers", client.headers) ~
+    ("requestBody", client.params) ~
     ("cache", cache)
 }
 

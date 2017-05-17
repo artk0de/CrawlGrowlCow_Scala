@@ -1,19 +1,36 @@
 package scala.demo
 
-import scala.crawlgrowlcow.crawling.{CrawlResponse, CrawlResult, CrawlWork}
+import scala.crawlgrowlcow.crawling._
+import scala.crawlgrowlcow._
+import scala.crawlgrowlcow.main.CrawlGrowlCow
 import scalaj.http.HttpRequest
 
 /**
   * Created by art2rik1 on 28.11.16.
   */
 
-object DemoWork extends CrawlWork {
+object App {
+  def main(args: Array[String]) {
+    CrawlGrowlCow.start(new DemoWork(), args)
+  }
+}
 
-  override def work(fetched: CrawlResponse): CrawlResult = {
-    println(fetched.toJson.toString)
-    CrawlResult(fetched.toJson)
+
+class DemoWork() extends CrawlWork {
+
+  override def work(response: CrawlResponse): CrawlResult = {
+    println(response.toJsonString)
+    return CrawlResult(null)
   }
 
-  // this method should be defined in child class
-  override def authorize(client: HttpRequest): Unit = super.authorize(client)
+  override def setParams(client: HttpRequest) = {
+    client.method("GET")
+  }
+
+
+  override def init() = {}
+
+  override def getNewInstace(): CrawlWork = {
+    return new DemoWork
+  }
 }
