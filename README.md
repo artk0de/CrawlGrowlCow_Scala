@@ -44,7 +44,7 @@ The system consists of:
 
 ## Create a worker
 
-A *CrawlWork* class represents an action which executes for every single link.
+A **CrawlWork** class represents an action which executes for every single link. It's requires *work* method to be implemented.
 
 ```scala
 package scala.demo
@@ -57,8 +57,7 @@ object Demo extends App { // Starting object
  }                                          // by using your implemented class
 
 class DemoWork extends CrawlWork { // Worker demo class
-
-  override def work(fetched: CrawlResponse): CrawlResult = {
+  override def work(fetched: CrawlResponse): CrawlResult = { // Necessary method                                                     
     println(fetched.toJson.toString) // prints content of a page
     
     //...
@@ -69,7 +68,21 @@ class DemoWork extends CrawlWork { // Worker demo class
                                 //    As CrawlGrowlCow uses Json4S library
                                 // Result should be putted as JValue class
   }
+  
 }
+```
+
+Also, there are unecessary methods could be implemented to make parse more flexible.
+
+#### setParams
+Executes every time before *work*. Could be used to setup httpRequest. For further information please visit [this page](https://github.com/scalaj/scalaj-http)
+```scala
+ override def setParams(client: HttpRequest) { // Unecessary method
+     // ...
+    // add some parameters to httpClient like authorization
+    // 
+    // ...
+  }
 ```
 ## Run master
 
