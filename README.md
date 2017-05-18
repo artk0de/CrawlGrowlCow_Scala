@@ -124,7 +124,7 @@ yourworker master --daemons 4 --dbname DemoBase --urls urls.txt
 |**db**|*MongoDB connection string*| Yes | mongodb://localhost:27017/
 
 
-## Run a slave
+## Run a node
 
 ```bash
 crgcw node --server 127.000.14.88 --port 228 --daemons 5 
