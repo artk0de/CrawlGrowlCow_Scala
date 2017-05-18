@@ -1,6 +1,6 @@
 ![](https://github.com/art2rik/CrawlGrowlCow_Scala/blob/master/img/crawlgrowlcow.png "Logo")
 
-# CrawlGrowlCow
+# CrawlGrowlCow [![BCH compliance](https://bettercodehub.com/edge/badge/art2rik/CrawlGrowlCow_Scala?branch=master)](https://bettercodehub.com/)
 
 CrawlGrowlCow is the framework for distributing crawling or parsing based on Scala. Its allow user to crawl on different machines and uses MongoDB to collect data.
 
