@@ -7,7 +7,7 @@ CrawlGrowlCow is the framework for distributing crawling or parsing based on Sca
 * Simple
 * Fast
 * Multithreading
-* New nodes adds easily
+* New nodes adding easily
 * Supports OAuth and other authorization types
 
 # User's guide
@@ -16,7 +16,8 @@ CrawlGrowlCow is the framework for distributing crawling or parsing based on Sca
 1. Install Scala
 2. Install MongoDB
 3. Run MongoDB
-4. Create worker
+4. Implement worker
+5. Compile worker
 5. Run worker as a node or master
 
 ## Little theory
@@ -109,8 +110,33 @@ class DemoWork extends CrawlWork{
 |toJsonString| JSON-formatted String | - |
 
 ## Run master
+Example of terminal command.
+```bash
+yourworker master --daemons 4 --dbname DemoBase --urls urls.txt
+```
+#### Launch options
+| Option | Description | Is required? | Example value |
+|------|-----------|---|---|
+|**daemons**| *Number of daemons (threads)*| No| 4 |
+|**port**| *Specified server port* | Yes | 3333 |
+|**dbname**| *Name of used database* | Yes | DemoBase |
+|**urls**| *Path to file with urls to parse*| Yes| ~/urls.txt|
+|**db**|*MongoDB connection string*| Yes | mongodb://localhost:27017/
+
 
 ## Run a slave
 
+```bash
+crgcw node --server 127.000.14.88 --port 228 --daemons 5 
+```
+
+The optimal number of daemons could be from 4 to 8, but you also could check other values.
+
+#### Launch options
+| Option | Description | Is required? | Example value |
+|------|-----------|---|---|
+|**daemons**| *Number of daemons (threads)*| Yes| 5 |
+|**server**| *Server IP or URL address* | Yes | 192.168.0.01 |
+|**port**| *Server port* | Yes | 3333 |
 
 
