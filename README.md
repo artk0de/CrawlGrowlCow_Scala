@@ -127,10 +127,10 @@ yourworker master --daemons 4 --dbname DemoBase --urls urls.txt
 |**db**|*MongoDB connection string*| Yes | mongodb://localhost:27017/
 
 
-## Run a node
+## Run a slave (node)
 
 ```bash
-crgcw node --server 127.000.14.88 --port 228 --daemons 5 
+yourworker slave --server 127.000.14.88 --port 228 --daemons 5 
 ```
 
 The optimal number of daemons could be from 4 to 8, but you also could check other values.
